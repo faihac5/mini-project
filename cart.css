@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.header {
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.current-price {
+    color: #e74c3c;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color:black;
+    margin-right: 10px;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    accent-color:rgb(100, 95, 95)
+    ;
+}
+#btn{
+    color:white;
+    background-color:#800000;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 250px;
+    border: 2px solid #800000;
+    padding: 10px;
+    
+}
+#div3{
+    width: 940px;
+    height: 700px;
+    border-top: 1px solid rgb(217, 208, 208);
+    border-right: 1px solid rgb(217, 208, 208);
+    background-color: rgb(247, 241, 241);
+}
